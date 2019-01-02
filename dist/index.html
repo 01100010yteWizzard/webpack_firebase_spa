@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Firebase App is always required and must be first -->
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+        <!-- Add additional services that you want to use -->
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-database.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-firestore.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-messaging.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-functions.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/5.7.0/firebase-storage.js"></script>
+    <!-- <script defer src="dev.js"></script> -->
+    <link rel="stylesheet" href="css/dev.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class=" header sticky flex--vert center">
+            <h1 class="h flex--hor center" >
+                <a class=" nav-link" href="#" data-target="header" >Header</a>
+            </h1>
+            
+            <ul class="wrap">
+                <li><a href="#" data-target="home" class="nav-link active">Home</a></li>
+                <li><a href="#" data-target="upload" class="nav-link">Upload</a></li>
+                <li><a href="#" data-target="gallery" class="nav-link">Gallery</a></li>
+            </ul>
+        </header>
+        <div class="page" id="home">
+            <div class="page_wrapper">
+                    <h2 class="h flex--hor center" >Home</h2>
+            </div>
+        </div>
+        <div class="page" id="upload">
+            <div class="page_wrapper">
+                    <h2 class="h flex--hor center" >Upload</h2>
+            </div>
+        
+        </div>
+        <div class="page" id="gallery">
+            <div class="page_wrapper">
+                    <h2 class="h flex--hor center" >Gallery</h2>
+            </div>
+        </div>
+    </div>
+    <script defer src="main.js"></script>
+    
+</body>
+</html>

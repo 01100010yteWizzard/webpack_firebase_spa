@@ -1,0 +1,13 @@
+:root{
+--background_page_home:#86f1ff;
+--background_page_upload:#c9ffa4;
+--background_page_gallery:#ffaeae;
+}
+
+#home{ background-color:var(--background_page_home); }
+
+#upload>.page_wrapper{ padding-top:var(--height_swap_header); }
+#upload{ background-color:var(--background_page_upload); }
+
+#gallery>.page_wrapper{ padding-top:var(--height_swap_header); }
+#gallery{ background-color:var(--background_page_gallery); }
